@@ -1,59 +1,34 @@
-# GuiaMochileiroFatec
+# 📘 Guia do Mochileiro Fatecano
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+Este projeto foi desenvolvido como parte de um desafio utilizando Angular, com base em um wireframe disponibilizado no Figma. A proposta consistia em criar uma aplicação front-end que seguisse com precisão o design e a estrutura visual sugeridos, simulando um guia acadêmico voltado para os estudantes da Fatec.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🧩 Desafio
 
-```bash
-ng serve
-```
+O objetivo do desafio incluía:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Desenvolver uma interface completa com base no layout fornecido via Figma.
+- Utilizar o Angular como framework principal.
+- Garantir responsividade e aplicar boas práticas de desenvolvimento front-end.
+- Entregar um produto funcional e visualmente fiel ao design proposto.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🛠️ Tecnologias empregadas
 
-```bash
-ng generate component component-name
-```
+- **Angular** – Usado como o principal framework para desenvolvimento da interface.
+- **TypeScript** – Linguagem base do Angular, oferecendo tipagem estática ao JavaScript.
+- **JavaScript** – Aplicado em funcionalidades extras e lógicas interativas.
+- **Bootstrap** – Framework CSS que auxilia na estilização e adaptação a diferentes telas.
+- **SCSS** – Pré-processador de CSS utilizado para organizar e reutilizar estilos de forma eficiente.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 💡 Principais funcionalidades
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Design adaptável a diferentes tamanhos de tela.
+- Sistema de navegação entre páginas como Home, Cadastro e Login.
+- Estrutura baseada em componentes Angular.
+- Fidelidade visual ao design original criado no Figma.
+- Estilos personalizados combinando SCSS com Bootstrap.
