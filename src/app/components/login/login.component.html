@@ -19,7 +19,22 @@
                 </div>
                 <div class="input">
                     <label for="password">Senha</label>
-                    <input type="password" placeholder="Senha">
+                    <div class="password-wrapper">
+                        <input
+                          class="pass"
+                          [type]="visibilidadeSenha ? 'text' : 'password'"
+                          name="password"
+                          id="password"
+                          maxlength="40" 
+                          placeholder="Digite sua senha"
+                        >
+                        <img 
+                          class="toggle-visibility"
+                          [src]="visibilidadeSenha ? 'assets/images/eye_open.png' : 'assets/images/eye_close.png'"
+                          (click)="mostrarSenha()"
+                          alt="Toggle visibility"
+                        >
+                    </div>
                 </div>
                 <button routerLink="home">Entrar</button>
             </div>

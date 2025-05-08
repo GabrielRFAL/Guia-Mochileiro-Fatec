@@ -8,5 +8,10 @@ import { RouterLink } from '@angular/router';
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
+  visibilidadeSenha = false;
+
+  mostrarSenha(): void{
+    this.visibilidadeSenha = !this.visibilidadeSenha;
+  }
 
 }
